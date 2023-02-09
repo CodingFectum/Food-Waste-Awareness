@@ -8070,7 +8070,8 @@ h6 {
   }
 }
 
-.video-one .video-popup {
+.video-one .video-popup,
+.video-one .video-popups {
   width: 100px;
   height: 100px;
   background-color: var(--thm-primary);
@@ -8095,13 +8096,15 @@ h6 {
   border-radius: 5px;
 }
 
-.video-one .video-popup:hover {
+.video-one .video-popup:hover,
+.video-one .video-popups:hover {
   background-color: #fff;
   color: var(--thm-black);
 }
 
 @media (min-width: 1200px) {
-  .video-one .video-popup {
+  .video-one .video-popup,
+  .video-one .video-popups {
     width: 190px;
     height: 190px;
     border-radius: 0;
